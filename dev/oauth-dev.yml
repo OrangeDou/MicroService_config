@@ -12,15 +12,15 @@ service:
     - test
 
 redis:
-  host: 101.133.169.145
-  password: 6378
+  host: 127.0.0.1:15001
+  password: 
   db: 0
   proxy2layer_queue_name: name
   ip_black_list_hash: 12
   id_black_list_queue: 12
 
 etcd:
-  host: localhost
+  host: 127.0.0.1:15002
   product_key: zxfyazzaa
 
 http:

@@ -12,7 +12,7 @@ service:
     - test
 
 redis:
-  host: localhost
+  host: 127.0.0.1:15001
   password: 6378
   db: 0
   proxy2layer_queue_name: name
@@ -20,7 +20,7 @@ redis:
   id_black_list_queue: 12
 
 etcd:
-  host: localhost
+  host: 127.0.0.1:15002
   product_key: zxfyazzaa
 
 http:
